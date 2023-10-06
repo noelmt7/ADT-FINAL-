@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.urls.path',
-    'django.urls.include'
+    'django.urls.include', 
+    'RNM'
 ]
 
 MIDDLEWARE = [
@@ -51,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'ADT.urls'
+ROOT_URLCONF = 'ADT_project.urls'
 
 TEMPLATES = [
     {
